@@ -1,0 +1,108 @@
+   <html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Faty MBAYE</title>
+    <!-- Intégration de Bootstrap, Tailwind et FontAwesome -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+    
+ <!-- Section "Expérience Professionnelle" -->
+    <section id="work-experience" class="container py-10 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300 shadow-md">
+        <h2 class="text-center mb-5 text-3xl font-bold">Expérience Professionnelle</h2>
+
+        <!-- Expérience 1 : Data Analyst - SENELEC -->
+        <div class="experience-item mb-5">
+            <h3 class="text-xl font-semibold text-blue-600">Analyste de données - SENELEC</h3>
+            <p class="text-sm text-gray-500">Août 2023 - Octobre 2023</p>
+            <ul class="mt-3 text-lg text-gray-700">
+                <li><strong>Création de tableaux de bord:</strong> Développement de tableaux de bord interactifs avec Power BI pour analyser les performances industrielles (SAIFI, SAIDI).</li>
+                <li><strong>Analyse SQL:</strong> Rédaction de requêtes SQL sur SQL Server pour analyser l’énergie non distribuée.</li>
+                <li><strong>Automatisation des processus:</strong> Automatisation des tâches de transformation des données via SSIS pour améliorer l’efficacité.</li>
+            </ul>
+        </div>
+    </section>
+        <!-- Section "Projets Académiques" -->
+    <section id="projects" class="container py-5 bg-gray-200">
+        <h2 class="text-center mb-5 text-3xl font-bold">Projets Académiques</h2>
+
+        <!-- Projet 1 : Analyse prédictive sur les données électorales -->
+        <div class="project-item mb-5">
+            <h3 class="text-xl font-semibold text-blue-600">Analyse prédictive sur les données électorales présidentielle-en cours</h3>
+            <ul class="mt-3 text-lg text-gray-700">
+                <li><strong>Collecte et nettoyage des données:</strong> Collecte, nettoyage et exploration des données électorales à l'aide de Python.</li>
+                <li><strong>Visualisation interactive:</strong> Création de visualisations interactives pour analyser les tendances départementales (Participation électorale, Abstention, etc.).</li>
+                <li><strong>Modélisation prédictive:</strong> Application de la régression linéaire et des algorithmes de classification (Forêt aléatoire) pour prédire les résultats électoraux.</li>
+            </ul>
+            <p><strong>Technologies:</strong> Pandas, matplotlib, seaborn</p>
+        </div>
+
+        <!-- Projet 2 : Visualisation des Données Airbnb -->
+        <div class="project-item mb-5">
+            <h3 class="text-xl font-semibold text-blue-600">Visualisation des Données Airbnb</h3>
+            <ul class="mt-3 text-lg text-gray-700">
+                <li><strong>Analyse et visualisation:</strong> Analyse et visualisation des données des locations Airbnb pour identifier les tendances du marché.</li>
+                <li><strong>Exploration des données:</strong> Exploration et nettoyage des données avec Python pour garantir leur qualité avant analyse.</li>
+                <li><strong>Création de visualisations interactives:</strong> Création de graphiques interactifs pour analyser les prix et la disponibilité des logements.</li>
+            </ul>
+            <p><strong>Technologies:</strong> Pandas, matplotlib, seaborn</p>
+        </div>
+
+        <!-- Projet 3 : Analyse de Performance Produits (Walmart) -->
+        <div class="project-item mb-5">
+            <h3 class="text-xl font-semibold text-blue-600">Analyse de Performance Produits (Walmart)</h3>
+            <ul class="mt-3 text-lg text-gray-700">
+                <li><strong>Nettoyage et transformation:</strong> Nettoyage, transformation et normalisation des données des produits de Walmart pour les préparer à l'analyse.</li>
+                <li><strong>Clustering:</strong> Application du clustering des produits pour identifier des groupes de produits similaires selon les caractéristiques des données.</li>
+                <li><strong>Visualisation interactive:</strong> Création de visualisations interactives pour optimiser le marketing et les stratégies commerciales.</li>
+            </ul>
+            <p><strong>Technologies:</strong> Pandas, k-Means, matplotlib, MinMaxScaler</p>
+        </div>
+
+        <!-- Projet 4 : Site de Surveillance des Serveurs en temps réel -->
+        <div class="project-item mb-5">
+            <h3 class="text-xl font-semibold text-blue-600">Site de Surveillance des Serveurs en temps réel (Back-end seulement)</h3>
+            <ul class="mt-3 text-lg text-gray-700">
+                <li><strong>Suivi en temps réel:</strong> Suivi en temps réel de la température et de l'humidité des serveurs pour garantir leur bon fonctionnement.</li>
+                <li><strong>Gestion des utilisateurs:</strong> Enregistrement, authentification et gestion des sessions des utilisateurs via une API sécurisée.</li>
+                <li><strong>Stockage des événements:</strong> Enregistrement des événements critiques pour référence future sur un serveur de stockage dédié.</li>
+            </ul>
+            <p><strong>Technologies:</strong> Node.js, MongoDB, API REST, Socket.IO, express-validator</p>
+        </div>
+
+        <!-- Projet 5 : Site de fouilles archéologiques (ArcheoIT) -->
+        <div class="project-item mb-5">
+            <h3 class="text-xl font-semibold text-blue-600">Site de fouilles archéologiques (ArcheoIT)</h3>
+            <ul class="mt-3 text-lg text-gray-700">
+                <li><strong>Développement du site:</strong> Développement d’un site web pour cataloguer et analyser des découvertes archéologiques.</li>
+                <li><strong>Déploiement:</strong> Déploiement du site sur un serveur Linux pour assurer sa disponibilité.</li>
+            </ul>
+            <p><strong>Technologies:</strong> Laravel, MySQL</p>
+        </div>
+
+        <!-- Projet 6 : Plateforme de gestion de partage de ressources pédagogiques -->
+        <div class="project-item mb-5">
+            <h3 class="text-xl font-semibold text-blue-600">Plateforme de gestion de partage de ressources pédagogiques</h3>
+            <ul class="mt-3 text-lg text-gray-700">
+                <li><strong>Création d'une plateforme:</strong> Développement d'une plateforme en ligne facilitant l’échange de documents académiques entre étudiants et enseignants.</li>
+                <li><strong>Recherche avancée:</strong> Intégration d’un système de recherche et de filtres avancés pour améliorer l’expérience utilisateur.</li>
+            </ul>
+            <p><strong>Technologies:</strong> PHP, MySQL, JavaScript, Bootstrap</p>
+        </div>
+
+        <!-- Projet 7 : Site de vente des produits alimentaires -->
+        <div class="project-item mb-5">
+            <h3 class="text-xl font-semibold text-blue-600">Site de vente des produits alimentaires</h3>
+            <ul class="mt-3 text-lg text-gray-700">
+                <li><strong>Plateforme e-commerce:</strong> Développement d'une plateforme e-commerce permettant aux vendeurs de créer leurs profils et d'exposer leurs produits.</li>
+                <li><strong>Suivi des commandes:</strong> Mise en place de la gestion des états de livraison et de suivi des commandes pour les clients.</li>
+            </ul>
+            <p><strong>Technologies:</strong> PHP, MySQL, JavaScript, Bootstrap, jQuery</p>
+        </div>
+    </section>
+   
