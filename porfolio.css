@@ -2,3 +2,13 @@
     overflow-x: auto;
     white-space: nowrap;
 }
+@media (max-width: 768px) {
+    .menu { 
+        display: flex !important;  /* Affiche le menu en ligne */
+        flex-direction: row; 
+        position: static; /* Empêche le menu d’être caché */
+    }
+    .menu-toggle { 
+        display: none !important;  /* Cache le bouton burger */
+    }
+}
